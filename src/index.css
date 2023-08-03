@@ -375,7 +375,7 @@ a {
 /* * Testimonials */
 
 .grid--testimonial {
-    direction: rtl;
+  direction: rtl;
 }
 
 .block--testimonial {
@@ -556,6 +556,8 @@ div.contact__number {
   font-size: 3rem;
   font-weight: 800;
   color: var(--accent-color);
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__logo {
@@ -597,4 +599,9 @@ div.contact__number {
   color: black;
   font-weight: 400;
   margin-left: 4.4rem;
+}
+
+.brand-foot {
+  display: flex;
+  flex-direction: row;
 }

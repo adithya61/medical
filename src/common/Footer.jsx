@@ -7,8 +7,10 @@ const Footer = () => {
         <div className="container">
           <div className="footer">
             <div className="footer__icon">
-              <img className="footer__logo" src={logo} alt="" />
-              Swasya
+              <div className="brand-foot">
+                <img className="footer__logo" src={logo} alt="" />
+                <div>Swasya</div>
+              </div>
               <div className="copyright">© swasya 2023</div>
             </div>
             <div className="footer__links">
